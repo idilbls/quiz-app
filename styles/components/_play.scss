@@ -1,0 +1,94 @@
+
+.questions{
+    background-color:rgba($color: #f7f1fa98, $alpha: 1.0);
+    border-radius: 20px;
+    border-left: 5px solid rgba($color: #ae74d4, $alpha: 1.0);
+    border-right: 5px solid rgba($color: #ae74d4, $alpha: 1.0);
+    width: 60%;
+    margin: $large auto 0 auto;
+    padding: $small 2rem;
+}
+h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.lifeline-container{
+    display: flex;
+    justify-content: left;
+}
+
+.lifeline{
+    position: relative;
+    top: -3px;
+}
+
+h5{
+    font-size: 1.2rem;
+    margin-bottom: $large;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.options-container{
+    display: inline-block;
+    width: 50%;
+}    
+.option{
+    background-color: gray;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    margin: 2rem auto;
+    padding: $normal;
+    transition: 0.3s linear all;
+    text-align: center;
+    width: 80%;
+}
+
+.option:hover{
+    background-color: darken($color: #424141, $amount: 0);
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto $small auto;
+    padding: 2rem;
+    width: 80%;
+}
+.button-container button{
+    border: none;
+    color: white;
+    cursor: poiner;
+    margin-right: 2rem;
+    padding: $xsmall $small;
+    border-radius: 20px;
+}
+.button-container button:first-child{
+    background-color: darken($color: #73cac6, $amount: 0);
+    box-shadow: 0 2px 2px 0 rgba(39, 38, 38, 0.925);
+    transition: 0.2s linear-all;
+}
+.button-container button:first-child:hover{
+    background-color: darken($color: #73cac6, $amount: 15);
+}
+
+.button-container button:nth-child(2){
+    background-color: darken($color: #64c478, $amount: 0);
+    box-shadow: 0 2px 2px 0 rgba(39, 38, 38, 0.925);
+    transition: 0.2s linear-all;
+}
+.button-container button:nth-child(2):hover{
+    background-color: darken($color: #64c478, $amount: 15);
+}
+
+.button-container button:last-child{
+    background-color: darken($color: #d46779, $amount: 0);
+    box-shadow: 0 2px 2px 0 rgba(39, 38, 38, 0.925);
+    transition: 0.2s linear-all;
+}
+.button-container button:last-child:hover{
+    background-color: darken($color: #d46779, $amount: 15);
+}
+
